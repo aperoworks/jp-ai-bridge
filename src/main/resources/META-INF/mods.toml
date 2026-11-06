@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="jpaibridge"
+version="1.0.0"
+displayName="JP AI Bridge"
+logoFile="icon.png"
+authors="Aperogames"
+description='''Local bridge that makes AI companion mods answer in Japanese.
+Point the mod's local/custom AI server address at http://127.0.0.1:5010/v1/ and set your API key in config/jpaibridge.properties.'''
+
+[[dependencies.jpaibridge]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.jpaibridge]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
